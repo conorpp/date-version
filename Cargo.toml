@@ -3,6 +3,13 @@ name = "date-version"
 version = "0.1.0"
 authors = ["Conor Patrick <conor@solokeys.com>"]
 edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/conorpp/date-version"
+homepage = "https://github.com/conorpp/date-version"
+
+description = "Generate a version based on a major and date. Because usually users just care how recent a version is."
+keywords = ["date", "version"]
+categories = ["command-line-utilities"]
 
 [[bin]]
 name = "date-version"
