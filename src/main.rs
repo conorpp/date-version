@@ -1,7 +1,7 @@
 use clap::{self, crate_authors, crate_version, App, Arg };
 use git2::Repository;
 
-pub const OFFSET_SECONDS_1970_TO_2000: i64 = 30 * 365 * 24 * 60 * 60;
+pub const OFFSET_SECONDS_1970_TO_2000: i64 = 946713600;
 
 fn main() {
     let matches = App::new("Date Version")
