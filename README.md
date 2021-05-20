@@ -1,5 +1,11 @@
 # date-version
 
+## Installation
+
+```
+cargo install date-version
+```
+
 ## Examples
 
 Point to a git repo that reports `4.1.0-2-g0ebd049` from `git describe`.
